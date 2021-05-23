@@ -1,0 +1,32 @@
+table,th,td{
+  table-layout:fixed;
+ width:100%;
+  height:auto;
+  border: 3px solid black;
+  border-collapse:collapse;
+  font-family: arial, sans-serif;
+  
+}
+td{
+  width:25%;
+}
+th, td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
+table {
+  border-spacing: 5px;
+}
+#t01 tr:nth-child(even) {
+  background-color:gold;
+}
+#t01 tr:nth-child(odd) {
+  background-color: purple;
+}
+#t01 th {
+  background-color: pink;
+  color: black;
+}
